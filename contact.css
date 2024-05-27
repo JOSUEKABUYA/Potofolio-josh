@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccc
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #272727;
+    color: white;
+
+}
+span{
+    color: #1866afe1;
+}
+.menu{
+    margin-right: 60px;
+
+}
+.menu a{
+    margin-right: 30px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 800;
+}
+.menu a:hover{
+    color:#7fa9d1e1;
+    padding: 5px;
+    border-bottom: 2px solid #7fa9d1e1;
+    border-top: 2px solid #7fa9d1e1;
+}
+h1,h3{
+    text-align: center;
+    margin-top: 15px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 70vh;
+    margin-left: 20%;
+    margin-top: 50px;
+    background-color: white;
+}
+img{
+    width: 35%;
+    
+}
+.boutton{
+    width: 150px;
+    border-radius: 15px;
+    color: #272727;
+    background-color: #7fa9d1e1;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 15px ;
+}
+.formulaire{
+    background-color: white;
+    width: 60%;
+
+}
+input, textarea {
+    margin-bottom: 25px;
+    padding: 3px;
+    background-color: #ccc;
+    border: 1px solid #7fa9d1e1;
+}
+.nom{
+    display: flex;
+    justify-content: space-between;
+}
+.nm input{
+    width: 95%;
+    
+}
